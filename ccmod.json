@@ -1,11 +1,11 @@
 {
   "id": "xpc-triblader-trithrow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "XPC Triblader Tri-Throw",
   "description": {
     "en_US": "Changes XPC's Tribladers to have unique VRPs instead of just Spheromancer's."
   },
-  "repository": "",
+  "repository": "https://github.com/Azure-Lazuline/xpc-triblader-trithrow",
   "tags": ["fun"],
   "authors": "Azure Lazuline",
   "icons": {
