@@ -1,0 +1,18 @@
+{
+  "id": "xpc-triblader-trithrow",
+  "version": "1.0.1",
+  "title": "XPC Triblader Tri-Throw",
+  "description": {
+    "en_US": "Changes XPC's Tribladers to have unique VRPs instead of just Spheromancer's."
+  },
+  "repository": "",
+  "tags": ["fun"],
+  "authors": "Azure Lazuline",
+  "icons": {
+    "24": "icon24.png"
+  },
+  "prestart": "_prestart.js",
+  "dependencies": {
+	"xenons-playable-classes": ">=1.0.0"
+  }
+}

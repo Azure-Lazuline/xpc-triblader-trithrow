@@ -1,0 +1,965 @@
+{
+	"defaultNeutral": {
+	  "effects": "ball",
+	  "speed": 550,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 0,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "NEUTRAL",
+		"damageFactor": 0.7,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG",
+		"limiter": ""
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultHeat": {
+	  "effects": "ball-heat",
+	  "speed": 550,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 24,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "HEAT",
+		"damageFactor": 0.7,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultCold": {
+	  "effects": "ball-cold",
+	  "speed": 550,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 48,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "COLD",
+		"damageFactor": 0.7,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultShock": {
+	  "effects": "ball-shock",
+	  "speed": 550,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 72,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "SHOCK",
+		"damageFactor": 0.7,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultWave": {
+	  "effects": "ball-wave",
+	  "speed": 550,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 96,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "WAVE",
+		"damageFactor": 0.7,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultNeutralSlow": {
+	  "effects": "ball",
+	  "speed": 510,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 0,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "NEUTRAL",
+		"damageFactor": 0.4,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG",
+		"limiter": ""
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultHeatSlow": {
+	  "effects": "ball-heat",
+	  "speed": 510,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 24,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "HEAT",
+		"damageFactor": 0.4,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultColdSlow": {
+	  "effects": "ball-cold",
+	  "speed": 510,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 48,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "COLD",
+		"damageFactor": 0.4,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultShockSlow": {
+	  "effects": "ball-shock",
+	  "speed": 510,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 72,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "SHOCK",
+		"damageFactor": 0.4,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultWaveSlow": {
+	  "effects": "ball-wave",
+	  "speed": 510,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 96,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "WAVE",
+		"damageFactor": 0.4,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultNeutralSlower": {
+	  "effects": "ball",
+	  "speed": 450,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 0,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "NEUTRAL",
+		"damageFactor": 0.3,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG",
+		"limiter": ""
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultHeatSlower": {
+	  "effects": "ball-heat",
+	  "speed": 450,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 24,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "HEAT",
+		"damageFactor": 0.3,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultColdSlower": {
+	  "effects": "ball-cold",
+	  "speed": 450,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 48,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "COLD",
+		"damageFactor": 0.3,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultShockSlower": {
+	  "effects": "ball-shock",
+	  "speed": 450,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 72,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "SHOCK",
+		"damageFactor": 0.3,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"defaultWaveSlower": {
+	  "effects": "ball-wave",
+	  "speed": 450,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 96,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "WAVE",
+		"damageFactor": 0.3,
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"chargedNeutral": {
+	  "effects": "ball",
+	  "speed": 600,
+	  "maxBounce": 3,
+	  "timer": 1.5,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": true,
+	  "light": "L",
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 0,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  0
+		]
+	  },
+	  "attack": {
+		"type": "HEAVY",
+		"element": "NEUTRAL",
+		"damageFactor": 0.95,
+		"reverse": false,
+		"spFactor": 1,
+		"hints": [
+		  "CHARGED",
+		  "STANDARD"
+		],
+		"guardable": "",
+		"skillBonus": "RANGED_DMG",
+		"limiter": ""
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"chargedHeat": {
+	  "effects": "ball-heat-tri",
+	  "speed": 600,
+	  "maxBounce": 3,
+	  "timer": 1.5,
+	  "trail": true,
+	  "multiHit": false,
+	  "noLightGlow": true,
+	  "light": "L",
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 24,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  0
+		]
+	  },
+	  "attack": {
+		"type": "HEAVY",
+		"element": "HEAT",
+		"damageFactor": 0.95,
+		"reverse": false,
+		"spFactor": 1,
+		"status": 1,
+		"hints": [
+		  "CHARGED",
+		  "STANDARD"
+		],
+		"guardable": "",
+		"skillBonus": "RANGED_DMG",
+		"limiter": ""
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"chargedCold": {
+	  "effects": "ball-cold-tri",
+	  "speed": 600,
+	  "maxBounce": 3,
+	  "timer": 1.5,
+	  "trail": true,
+	  "multiHit": false,
+	  "noLightGlow": true,
+	  "light": "L",
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 48,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  0
+		]
+	  },
+	  "attack": {
+		"type": "HEAVY",
+		"element": "COLD",
+		"damageFactor": 0.95,
+		"reverse": false,
+		"spFactor": 1,
+		"status": 1,
+		"hints": [
+		  "CHARGED",
+		  "STANDARD"
+		],
+		"guardable": "",
+		"skillBonus": "RANGED_DMG",
+		"limiter": ""
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"chargedShock": {
+	  "effects": "ball-shock-tri",
+	  "speed": 600,
+	  "maxBounce": 3,
+	  "timer": 1.5,
+	  "trail": true,
+	  "multiHit": false,
+	  "noLightGlow": true,
+	  "light": "L",
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 72,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  0
+		]
+	  },
+	  "attack": {
+		"type": "HEAVY",
+		"element": "SHOCK",
+		"damageFactor": 0.95,
+		"reverse": false,
+		"spFactor": 1,
+		"status": 1,
+		"hints": [
+		  "CHARGED",
+		  "STANDARD"
+		],
+		"guardable": "",
+		"skillBonus": "RANGED_DMG",
+		"limiter": ""
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"chargedWave": {
+	  "effects": "ball-wave-tri",
+	  "speed": 600,
+	  "maxBounce": 3,
+	  "timer": 1.5,
+	  "trail": true,
+	  "multiHit": false,
+	  "noLightGlow": true,
+	  "light": "L",
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 96,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  0
+		]
+	  },
+	  "attack": {
+		"type": "HEAVY",
+		"element": "WAVE",
+		"damageFactor": 0.95,
+		"reverse": false,
+		"spFactor": 1,
+		"status": 1,
+		"hints": [
+		  "CHARGED",
+		  "STANDARD"
+		],
+		"guardable": "",
+		"skillBonus": "RANGED_DMG",
+		"limiter": ""
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"chargedNeutralFollowup": {
+	  "effects": "ball",
+	  "speed": 600,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 0,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "NEUTRAL",
+		"damageFactor": 0.15,
+		"hints": [
+		  "NO_PUZZLE",
+		  "NO_ICEDISK",
+		  "NO_FERRO"
+		],
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG",
+		"limiter": ""
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"chargedHeatFollowup": {
+	  "effects": "ball-heat",
+	  "speed": 600,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 24,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "HEAT",
+		"damageFactor": 0.15,
+		"hints": [
+		  "NO_PUZZLE",
+		  "NO_ICEDISK",
+		  "NO_FERRO"
+		],
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"chargedColdFollowup": {
+	  "effects": "ball-cold",
+	  "speed": 600,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 48,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "COLD",
+		"damageFactor": 0.15,
+		"hints": [
+		  "NO_PUZZLE",
+		  "NO_ICEDISK",
+		  "NO_FERRO"
+		],
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"chargedShockFollowup": {
+	  "effects": "ball-shock",
+	  "speed": 600,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 72,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "SHOCK",
+		"damageFactor": 0.15,
+		"hints": [
+		  "NO_PUZZLE",
+		  "NO_ICEDISK",
+		  "NO_FERRO"
+		],
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	},
+	"chargedWaveFollowup": {
+	  "effects": "ball-wave",
+	  "speed": 600,
+	  "maxBounce": 0,
+	  "timer": 1,
+	  "trail": false,
+	  "multiHit": false,
+	  "noLightGlow": false,
+	  "type": "BALL",
+	  "animation": {
+		"name": "default",
+		"sheet": {
+		  "src": "media/entity/balls/default.png",
+		  "offX": 216,
+		  "offY": 96,
+		  "width": 24,
+		  "height": 24
+		},
+		"time": 0.05,
+		"repeat": true,
+		"frames": [
+		  1
+		]
+	  },
+	  "attack": {
+		"type": "LIGHT",
+		"element": "WAVE",
+		"damageFactor": 0.15,
+		"hints": [
+		  "NO_PUZZLE",
+		  "NO_ICEDISK",
+		  "NO_FERRO"
+		],
+		"reverse": false,
+		"spFactor": 1,
+		"guardable": "",
+		"skillBonus": "RANGED_DMG"
+	  },
+	  "timeBoni": null,
+	  "behaviors": []
+	}
+}

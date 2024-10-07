@@ -1,0 +1,3739 @@
+{
+  "proxies": {
+    "defaultNeutral": {
+      "effects": "ball",
+      "speed": 550,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 0,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "NEUTRAL",
+        "damageFactor": 0.7,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultHeat": {
+      "effects": "ball-heat",
+      "speed": 550,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 24,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "HEAT",
+        "damageFactor": 0.7,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultCold": {
+      "effects": "ball-cold",
+      "speed": 550,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 48,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "COLD",
+        "damageFactor": 0.7,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultShock": {
+      "effects": "ball-shock",
+      "speed": 550,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 72,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "SHOCK",
+        "damageFactor": 0.7,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultWave": {
+      "effects": "ball-wave",
+      "speed": 550,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 96,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "WAVE",
+        "damageFactor": 0.7,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultNeutralSlow": {
+      "effects": "ball",
+      "speed": 510,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 0,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "NEUTRAL",
+        "damageFactor": 0.4,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultHeatSlow": {
+      "effects": "ball-heat",
+      "speed": 510,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 24,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "HEAT",
+        "damageFactor": 0.4,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultColdSlow": {
+      "effects": "ball-cold",
+      "speed": 510,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 48,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "COLD",
+        "damageFactor": 0.4,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultShockSlow": {
+      "effects": "ball-shock",
+      "speed": 510,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 72,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "SHOCK",
+        "damageFactor": 0.4,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultWaveSlow": {
+      "effects": "ball-wave",
+      "speed": 510,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 96,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "WAVE",
+        "damageFactor": 0.4,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultNeutralSlower": {
+      "effects": "ball",
+      "speed": 450,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 0,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "NEUTRAL",
+        "damageFactor": 0.3,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultHeatSlower": {
+      "effects": "ball-heat",
+      "speed": 450,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 24,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "HEAT",
+        "damageFactor": 0.3,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultColdSlower": {
+      "effects": "ball-cold",
+      "speed": 450,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 48,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "COLD",
+        "damageFactor": 0.3,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultShockSlower": {
+      "effects": "ball-shock",
+      "speed": 450,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 72,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "SHOCK",
+        "damageFactor": 0.3,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "defaultWaveSlower": {
+      "effects": "ball-wave",
+      "speed": 450,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 96,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "WAVE",
+        "damageFactor": 0.3,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "chargedNeutral": {
+      "effects": "ball",
+      "speed": 600,
+      "maxBounce": 3,
+      "timer": 1.5,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": true,
+      "light": "L",
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 0,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0
+        ]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "NEUTRAL",
+        "damageFactor": 0.95,
+        "reverse": false,
+        "spFactor": 1,
+        "hints": [
+          "CHARGED",
+          "STANDARD"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "chargedHeat": {
+      "effects": "ball-heat-tri",
+      "speed": 600,
+      "maxBounce": 3,
+      "timer": 1.5,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": true,
+      "light": "L",
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 24,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0
+        ]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "HEAT",
+        "damageFactor": 0.95,
+        "reverse": false,
+        "spFactor": 1,
+        "status": 1,
+        "hints": [
+          "CHARGED",
+          "STANDARD"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "chargedCold": {
+      "effects": "ball-cold-tri",
+      "speed": 600,
+      "maxBounce": 3,
+      "timer": 1.5,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": true,
+      "light": "L",
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 48,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0
+        ]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "COLD",
+        "damageFactor": 0.95,
+        "reverse": false,
+        "spFactor": 1,
+        "status": 1,
+        "hints": [
+          "CHARGED",
+          "STANDARD"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "chargedShock": {
+      "effects": "ball-shock-tri",
+      "speed": 600,
+      "maxBounce": 3,
+      "timer": 1.5,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": true,
+      "light": "L",
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 72,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0
+        ]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "SHOCK",
+        "damageFactor": 0.95,
+        "reverse": false,
+        "spFactor": 1,
+        "status": 1,
+        "hints": [
+          "CHARGED",
+          "STANDARD"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "chargedWave": {
+      "effects": "ball-wave-tri",
+      "speed": 600,
+      "maxBounce": 3,
+      "timer": 1.5,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": true,
+      "light": "L",
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 96,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0
+        ]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "WAVE",
+        "damageFactor": 0.95,
+        "reverse": false,
+        "spFactor": 1,
+        "status": 1,
+        "hints": [
+          "CHARGED",
+          "STANDARD"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "chargedNeutralFollowup": {
+      "effects": "ball",
+      "speed": 600,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 0,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "NEUTRAL",
+        "damageFactor": 0.15,
+        "hints": [
+          "NO_PUZZLE"
+        ],
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "chargedHeatFollowup": {
+      "effects": "ball-heat",
+      "speed": 600,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 24,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "HEAT",
+        "damageFactor": 0.15,
+        "hints": [
+          "NO_PUZZLE"
+        ],
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "chargedColdFollowup": {
+      "effects": "ball-cold",
+      "speed": 600,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 48,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "COLD",
+        "damageFactor": 0.15,
+        "hints": [
+          "NO_PUZZLE"
+        ],
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "chargedShockFollowup": {
+      "effects": "ball-shock",
+      "speed": 600,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 72,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "SHOCK",
+        "damageFactor": 0.15,
+        "hints": [
+          "NO_PUZZLE"
+        ],
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "chargedWaveFollowup": {
+      "effects": "ball-wave",
+      "speed": 600,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "offX": 216,
+          "offY": 96,
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          1
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "WAVE",
+        "damageFactor": 0.15,
+        "hints": [
+          "NO_PUZZLE"
+        ],
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG"
+      },
+      "timeBoni": null,
+      "behaviors": []
+    }
+  },
+  "actions":{
+    "NEUTRAL": {
+      "THROW_NORMAL": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.36,
+              "move": 0.3,
+              "reaim": 0.7
+            }
+          },
+          {
+            "followUp": "attack1End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.000,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultNeutral",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.018,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+			"speed": 100,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultNeutralSlow",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.036,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultNeutralSlower",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_NORMAL_REV": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.36,
+              "move": 0.3,
+              "reaim": 0.7
+            }
+          },
+          {
+            "followUp": "attack2End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.000,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultNeutral",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": -0.018,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+			"speed": 100,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultNeutralSlow",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": -0.036,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultNeutralSlower",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_CHARGED": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.25,
+              "move": 0.5,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attack1End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.onKeyPanel",
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "FACE",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.hexacastXPC",
+                  "name": "shootCharge"
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "elementProxy": "CHARGED",
+                "startDist": 20,
+                "type": "SHOOT_PROXY_PLAYER"
+              },
+              {
+                "name": "post-shoot",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedNeutral",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedNeutralFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedNeutralFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "name": "post-shoot",
+            "type": "LABEL"
+          },
+          {
+            "time": 0.24,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_CHARGED_REV": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.25,
+              "move": 0.5,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attack2End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.onKeyPanel",
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "FACE",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.hexacastXPC",
+                  "name": "shootCharge"
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "elementProxy": "CHARGED",
+                "startDist": 20,
+                "type": "SHOOT_PROXY_PLAYER"
+              },
+              {
+                "name": "post-shoot",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedNeutral",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedNeutralFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedNeutralFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "name": "post-shoot",
+            "type": "LABEL"
+          },
+          {
+            "time": 0.24,
+            "type": "WAIT"
+          }
+        ]
+      }
+    },
+    "HEAT": {
+      "THROW_NORMAL": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.36,
+              "move": 0.3,
+              "reaim": 0.7
+            }
+          },
+          {
+            "followUp": "attack1End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.000,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultHeat",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.018,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+			"speed": 100,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultHeatSlow",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.036,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultHeatSlower",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_NORMAL_REV": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.36,
+              "move": 0.3,
+              "reaim": 0.7
+            }
+          },
+          {
+            "followUp": "attack2End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.000,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultHeat",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": -0.018,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+			"speed": 100,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultHeatSlow",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": -0.036,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultHeatSlower",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_CHARGED": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.25,
+              "move": 0.5,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attack1End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.onKeyPanel",
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "FACE",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.hexacastXPC",
+                  "name": "shootCharge"
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "elementProxy": "CHARGED",
+                "startDist": 20,
+                "type": "SHOOT_PROXY_PLAYER"
+              },
+              {
+                "name": "post-shoot",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedHeat",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedHeatFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedHeatFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "name": "post-shoot",
+            "type": "LABEL"
+          },
+          {
+            "time": 0.24,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_CHARGED_REV": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.25,
+              "move": 0.5,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attack2End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.onKeyPanel",
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "FACE",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.hexacastXPC",
+                  "name": "shootCharge"
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "elementProxy": "CHARGED",
+                "startDist": 20,
+                "type": "SHOOT_PROXY_PLAYER"
+              },
+              {
+                "name": "post-shoot",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedHeat",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedHeatFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedHeatFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "name": "post-shoot",
+            "type": "LABEL"
+          },
+          {
+            "time": 0.24,
+            "type": "WAIT"
+          }
+        ]
+      }
+	},
+    "COLD": {
+      "THROW_NORMAL": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.36,
+              "move": 0.3,
+              "reaim": 0.7
+            }
+          },
+          {
+            "followUp": "attack1End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.000,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultCold",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.018,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+			"speed": 100,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultColdSlow",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.036,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultColdSlower",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_NORMAL_REV": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.36,
+              "move": 0.3,
+              "reaim": 0.7
+            }
+          },
+          {
+            "followUp": "attack2End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.000,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultCold",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": -0.018,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+			"speed": 100,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultColdSlow",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": -0.036,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultColdSlower",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_CHARGED": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.25,
+              "move": 0.5,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attack1End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.onKeyPanel",
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "FACE",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.hexacastXPC",
+                  "name": "shootCharge"
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "elementProxy": "CHARGED",
+                "startDist": 20,
+                "type": "SHOOT_PROXY_PLAYER"
+              },
+              {
+                "name": "post-shoot",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedCold",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedColdFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedColdFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "name": "post-shoot",
+            "type": "LABEL"
+          },
+          {
+            "time": 0.24,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_CHARGED_REV": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.25,
+              "move": 0.5,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attack2End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.onKeyPanel",
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "FACE",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.hexacastXPC",
+                  "name": "shootCharge"
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "elementProxy": "CHARGED",
+                "startDist": 20,
+                "type": "SHOOT_PROXY_PLAYER"
+              },
+              {
+                "name": "post-shoot",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedCold",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedColdFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedColdFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "name": "post-shoot",
+            "type": "LABEL"
+          },
+          {
+            "time": 0.24,
+            "type": "WAIT"
+          }
+        ]
+      }
+	},
+    "SHOCK": {
+      "THROW_NORMAL": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.36,
+              "move": 0.3,
+              "reaim": 0.7
+            }
+          },
+          {
+            "followUp": "attack1End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.000,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultShock",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.018,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+			"speed": 100,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultShockSlow",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.036,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultShockSlower",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_NORMAL_REV": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.36,
+              "move": 0.3,
+              "reaim": 0.7
+            }
+          },
+          {
+            "followUp": "attack2End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.000,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultShock",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": -0.018,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+			"speed": 100,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultShockSlow",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": -0.036,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultShockSlower",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_CHARGED": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.25,
+              "move": 0.5,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attack1End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.onKeyPanel",
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "FACE",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.hexacastXPC",
+                  "name": "shootCharge"
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "elementProxy": "CHARGED",
+                "startDist": 20,
+                "type": "SHOOT_PROXY_PLAYER"
+              },
+              {
+                "name": "post-shoot",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedShock",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedShockFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedShockFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "name": "post-shoot",
+            "type": "LABEL"
+          },
+          {
+            "time": 0.24,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_CHARGED_REV": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.25,
+              "move": 0.5,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attack2End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.onKeyPanel",
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "FACE",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.hexacastXPC",
+                  "name": "shootCharge"
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "elementProxy": "CHARGED",
+                "startDist": 20,
+                "type": "SHOOT_PROXY_PLAYER"
+              },
+              {
+                "name": "post-shoot",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedShock",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedShockFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedShockFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "name": "post-shoot",
+            "type": "LABEL"
+          },
+          {
+            "time": 0.24,
+            "type": "WAIT"
+          }
+        ]
+      }
+	},
+    "WAVE": {
+      "THROW_NORMAL": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.36,
+              "move": 0.3,
+              "reaim": 0.7
+            }
+          },
+          {
+            "followUp": "attack1End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.000,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultWave",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.018,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+			"speed": 100,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultWaveSlow",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.036,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultWaveSlower",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_NORMAL_REV": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.36,
+              "move": 0.3,
+              "reaim": 0.7
+            }
+          },
+          {
+            "followUp": "attack2End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": 0.000,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultWave",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": -0.018,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+			"speed": 100,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultWaveSlow",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startAngle": -0.036,
+            "angleVary": 0,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 6,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "defaultWaveSlower",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.033,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_CHARGED": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.25,
+              "move": 0.5,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attack1End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.onKeyPanel",
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "FACE",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.hexacastXPC",
+                  "name": "shootCharge"
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "elementProxy": "CHARGED",
+                "startDist": 20,
+                "type": "SHOOT_PROXY_PLAYER"
+              },
+              {
+                "name": "post-shoot",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedWave",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedWaveFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedWaveFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "name": "post-shoot",
+            "type": "LABEL"
+          },
+          {
+            "time": 0.24,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_CHARGED_REV": {
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.25,
+              "move": 0.5,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attack2End",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.onKeyPanel",
+            "thenStep": [
+              {
+                "duration": 0,
+                "align": "FACE",
+                "rotateFace": 0,
+                "flipLeftFace": false,
+                "wait": false,
+                "waitSkip": 0,
+                "actionDetached": false,
+                "fixPos": false,
+                "type": "SHOW_EFFECT",
+                "effect": {
+                  "sheet": "combat.hexacastXPC",
+                  "name": "shootCharge"
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "elementProxy": "CHARGED",
+                "startDist": 20,
+                "type": "SHOOT_PROXY_PLAYER"
+              },
+              {
+                "name": "post-shoot",
+                "type": "GOTO_LABEL"
+              }
+            ]
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedWave",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedWaveFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "align": "BOTTOM",
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": false,
+			"centralAngle": 0.00,
+			"count": 1,
+			"duration": 0.0,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "chargedWaveFollowup",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "name": "post-shoot",
+            "type": "LABEL"
+          },
+          {
+            "time": 0.24,
+            "type": "WAIT"
+          }
+        ]
+      }
+	}
+  }
+}

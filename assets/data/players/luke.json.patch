@@ -1,0 +1,82 @@
+[{
+    "type": "ENTER",
+    "index": ["actions"]
+},{
+    "type": "ENTER",
+    "index": ["BASE"]
+},{
+    "type": "SET_KEY",
+    "index": "THROW_NORMAL"
+},{
+    "type": "SET_KEY",
+    "index": "THROW_NORMAL_REV"
+},{
+    "type": "SET_KEY",
+    "index": "THROW_CHARGED"
+},{
+    "type": "SET_KEY",
+    "index": "THROW_CHARGED_REV"
+},{
+    "type": "EXIT",
+    "count": 2
+},{
+    "type": "ENTER",
+    "index": ["proxies"]
+},{
+    "type": "IMPORT",
+    "src": "data/players/azure-triblader-proxies.json"
+},{
+    "type": "EXIT",
+    "count": 1
+},{
+    "type": "ENTER",
+    "index": ["actions"]
+},{
+    "type": "ENTER",
+    "index": ["NEUTRAL"]
+},{
+    "type": "IMPORT",
+    "src": "data/players/azure-triblader-actions-neutral.json"
+},{
+    "type": "EXIT",
+    "count": 1
+},{
+    "type": "ENTER",
+    "index": ["HEAT"]
+},{
+    "type": "IMPORT",
+    "src": "data/players/azure-triblader-actions-heat.json"
+},{
+    "type": "EXIT",
+    "count": 1
+},{
+    "type": "ENTER",
+    "index": ["COLD"]
+},{
+    "type": "IMPORT",
+    "src": "data/players/azure-triblader-actions-cold.json"
+},{
+    "type": "EXIT",
+    "count": 1
+},{
+    "type": "ENTER",
+    "index": ["SHOCK"]
+},{
+    "type": "IMPORT",
+    "src": "data/players/azure-triblader-actions-shock.json"
+},{
+    "type": "EXIT",
+    "count": 1
+},{
+    "type": "ENTER",
+    "index": ["WAVE"]
+},{
+    "type": "IMPORT",
+    "src": "data/players/azure-triblader-actions-wave.json"
+},{
+    "type": "EXIT",
+    "count": 1
+},{
+    "type": "EXIT",
+    "count": 1
+}]
