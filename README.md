@@ -8,7 +8,7 @@ Edits the tribladers in [Xenon's Playable Classes](https://github.com/XenonA7/xe
 - Charged VRPs throw 3 shots in a straight line. Most power is concentrated in the first one.
 - Melee attacks are a 3-hit combo instead of 4-hit. NPC tribladers already did this but i extended it to players too.
 
-This gives combat a different rhythm than spheromancers so they feel much more distinct from each other. The original mod is pretty cool but i couldn't shake the feeling that i was just playing "a spheromancer with different combat arts" instead of an entirely new class. So i made this mod of a mod, making combat actually feel different 100% of the time instead of only when you push the combat arts button! This doesn't affect the balance much but it definitely affects how it feels to control.
+This gives combat a different rhythm than spheromancers so they feel much more distinct from each other. The original mod is pretty cool but i couldn't shake the feeling that i was just playing "a spheromancer with different combat arts" instead of an entirely new class. So i made this mod of a mod, making combat actually feel different 100% of the time, instead of just 50%! This doesn't affect the balance much but it definitely affects how it feels to control, and it's especially neat earlygame before you have too many combat arts.
 
 ### Installation
 
