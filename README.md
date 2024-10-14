@@ -12,4 +12,6 @@ This gives combat a different rhythm than spheromancers so they feel much more d
 
 ### Installation
 
-To use, install [ccloader](https://github.com/CCDirectLink/CCLoader) and then put [the .ccmod file](https://github.com/Azure-Lazuline/xpc-triblader-trithrow/releases) in your mods folder. You'll have to install [Xenon's Playable Classes](https://github.com/XenonA7/xenons-playable-classes) the same way of course.
+To use, install [ccloader](https://github.com/CCDirectLink/CCLoader), and go to the "Mods" menu ingame (the button at the *top* of the Options menu, not the tab on the right) and it should be listed there to select and install. You need to install Xenon's Playable Classes from that menu too of course!
+
+You can also install manually by placing [the .ccmod file](https://github.com/Azure-Lazuline/xpc-triblader-trithrow/releases) in your ccloader mods folder.
